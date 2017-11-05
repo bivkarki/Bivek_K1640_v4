@@ -1,0 +1,78 @@
+.outerbox
+{ margin-left:882px;
+margin-top:85px;
+width:450px; 
+height:410px;
+overflow:hidden;
+border-radius: 0px;
+border:solid 2px black;
+border-radius: 7px;
+background-color: rgba(255,255,255,1);
+}
+.sliderbox img
+{
+	width:450px;
+	height:410px;
+	float:left;
+}
+figure
+{
+	padding:0px;
+	margin:0px;
+}
+.sliderbox figcaption
+{
+	font-family:Verdana,sans-serif;;
+	color:green;
+	font-size: 15px;
+	margin-top:0px;
+	float:top;
+
+}
+
+.sliderbox
+{
+	position:relative;
+	width:2800px;
+	animation:slide 10s infinite;
+}
+@keyframes slide
+{ 
+	0%
+	{
+		left:0px;
+	}
+	20%
+	{
+		left:0px;
+	}
+	25%
+	{
+		left:-450px;
+	}
+	45%
+	{
+     left:-450px;
+	}
+	50%
+	{
+     left:-900px;
+	}
+	70%
+	{
+     left:-900px;
+	}
+	75%
+	{
+     left:-1350px;
+	}
+	95%
+	{ 
+     left:-1350px;
+	}
+	100%
+	{
+		left:0px;
+	}
+
+}
